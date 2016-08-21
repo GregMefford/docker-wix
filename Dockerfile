@@ -39,4 +39,4 @@ MAINTAINER Greg Mefford <greg@gregmefford.com>
 
 # Allow this container to be run as an executable
 # that wraps the Wine envinronment
-ENTRYPOINT xvfb-run -a wine
+ENTRYPOINT ["wine"]
